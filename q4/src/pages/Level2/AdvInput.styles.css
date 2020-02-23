@@ -43,3 +43,16 @@ label {
   justify-self: end;
   align-self: center;
 }
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .AdvInputForm {
+    width: 100%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .todoList {
+    width: 80%;
+    justify-self: center;
+    text-indent: 1em;
+  }
+}
