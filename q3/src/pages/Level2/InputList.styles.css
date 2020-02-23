@@ -24,3 +24,17 @@ label {
   justify-self: center;
   text-indent: 1em;
 }
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .inputForm {
+    width: 100%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-column-gap: 1em;
+  }
+  .todoList {
+    width: 80%;
+    justify-self: center;
+    text-indent: 1em;
+  }
+}

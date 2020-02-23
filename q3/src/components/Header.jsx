@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
+      <Link className="navbar-brand" to="/">
         AttainU
-      </a>
+      </Link>
+
       <button
         class="navbar-toggler"
         type="button"
