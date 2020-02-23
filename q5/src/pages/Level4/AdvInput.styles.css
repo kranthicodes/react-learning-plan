@@ -12,7 +12,7 @@ label {
   justify-self: center;
 }
 .AdvInputForm {
-  width: 50%;
+  width: 60%;
   justify-self: center;
   display: grid;
   grid-template-columns: 1fr;
@@ -44,4 +44,12 @@ label {
   width: 50%;
   justify-self: end;
   align-self: center;
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .AdvInputForm {
+    width: 100%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

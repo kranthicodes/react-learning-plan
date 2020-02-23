@@ -20,17 +20,7 @@ label {
 }
 
 .todoList {
-  width: 80%;
+  width: 50%;
   justify-self: center;
   text-indent: 1em;
-}
-
-.nav-buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
-}
-
-.nav-buttons a {
-  color: #fff;
 }
