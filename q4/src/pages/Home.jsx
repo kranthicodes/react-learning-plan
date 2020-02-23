@@ -25,10 +25,6 @@ export default function Home() {
           <Link className="btn btn-primary" to="/level4">
             Level 4
           </Link>
-
-          <Link className="btn btn-primary" to="/level5">
-            Level 5
-          </Link>
         </div>
       </div>
     </div>
