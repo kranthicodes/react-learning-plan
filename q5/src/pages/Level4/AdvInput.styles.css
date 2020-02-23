@@ -1,0 +1,47 @@
+.level3 {
+  padding: 10px;
+  background: #ccc;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+label {
+  justify-self: center;
+}
+.form-control {
+  width: 100%;
+  justify-self: center;
+}
+.AdvInputForm {
+  width: 50%;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.todoList {
+  width: 50%;
+  justify-self: center;
+  text-indent: 1em;
+}
+.adv-form {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-column-gap: 1em;
+  /* justify-self: center; */
+}
+.span-filter {
+  width: 50%;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.listSpan {
+  justify-self: end;
+  font-size: 1.4em;
+}
+.listSelect {
+  width: 50%;
+  justify-self: end;
+  align-self: center;
+}

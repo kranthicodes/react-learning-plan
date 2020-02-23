@@ -1,0 +1,13 @@
+.level1 {
+  padding: 10px;
+  background: #ccc;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+label {
+  justify-self: center;
+}
+.form-control {
+  width: 50%;
+  justify-self: center;
+}

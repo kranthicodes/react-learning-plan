@@ -1,0 +1,8 @@
+export const HANDLE_INPUT = "HANDLE_INPUT";
+export const SEARCH_TERM = "SEARCH_TERM";
+export const HANDLE_DATE = "HANDLE_DATE";
+export const HANDLE_SELECTED_DAY = "HANDLE_SELECTED_DAY";
+export const HANDLE_SUBMIT = "HANDLE_SUBMIT";
+export const FETCH_LIST = "FETCH_LIST";
+export const SET_LOADING = "SET_LOADING";
+export const UNSET_LOADING = "UNSET_LOADING";

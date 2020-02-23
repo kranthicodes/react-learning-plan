@@ -1,0 +1,26 @@
+.level2 {
+  padding: 10px;
+  background: #ccc;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+label {
+  justify-self: center;
+}
+.form-control {
+  width: 100%;
+  justify-self: center;
+}
+.inputForm {
+  width: 50%;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-column-gap: 1em;
+}
+
+.todoList {
+  width: 50%;
+  justify-self: center;
+  text-indent: 1em;
+}
